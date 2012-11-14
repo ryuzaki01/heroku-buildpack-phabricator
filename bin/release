@@ -5,6 +5,7 @@ cat <<EOF
 ---
 config_vars:
   ADMIN_EMAIL: admin@example.com
+  PHABRICATOR_ENV: development
 default_process_types:
   web: sh boot.sh
 EOF
