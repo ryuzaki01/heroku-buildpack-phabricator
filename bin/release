@@ -6,7 +6,7 @@ cat <<EOF
 config_vars:
   ADMIN_EMAIL: admin@example.com
   PHABRICATOR_ENV: development
-  SECURITY_HMAC_KEY: '[D\t~Y7eNmnQGJ;rnH6aF;m2!vJ8@v8C=Cs:aQS\.Qw'
+  SECURITY_HMAC_KEY: 'h5HEBxA60jbrZQ8wfThp9e21JflezsPpco/dQWS3H'
   PHABRICATOR_BASE_URI: 'http://127.0.0.1/'
 default_process_types:
   web: sh boot.sh
